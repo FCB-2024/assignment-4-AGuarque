@@ -28,7 +28,10 @@ def main(n) :
 	## OF CODE ALLOW THIS FUNCTION TO RETURN THE VALUE
 	## "anti-prime" or "not anti-prime"
 	return("anti-prime")
-n = int(sys.argv[1])
+if len(sys.argv) != 2 or not sys.argv[1].isdigit() or int(sys.argv[1]) <= 0:
+    print("Por favor, introduce un número entero positivo como argumento.")
+    sys.exit(1)
+n=int(sys.argv[1])
 ## DO NOT REMOVE THIS LINE BELOW
 if __name__ == "__main__" :
 
