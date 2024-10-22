@@ -17,10 +17,10 @@ def main(n) :
 		k=1
 		while k<=j:
 			if j%k==0:
-				divisors_j=divisors_j+1
+				divisors_j=divisors_j+1			
 			k=k+1
 		if divisors_j>=divisors_n:
-			return("not anti-prime")
+			return("non-anti-prime")
 		j=j+1
 	## THE LAST LINES OF YOUR CODE SHOULD EITHER
 	## RETURN THE VALUE "anti-prime" or "not anti-prime"
@@ -28,8 +28,8 @@ def main(n) :
 	## OF CODE ALLOW THIS FUNCTION TO RETURN THE VALUE
 	## "anti-prime" or "not anti-prime"
 	return("anti-prime")
-if len(sys.argv) != 2 or not sys.argv[1].isdigit() or int(sys.argv[1]) <= 0:
-    print("Por favor, introduce un número entero positivo como argumento.")
+if len(sys.argv) != 2:
+    print("Número entero positivo como argumento.")
     sys.exit(1)
 n=int(sys.argv[1])
 ## DO NOT REMOVE THIS LINE BELOW
