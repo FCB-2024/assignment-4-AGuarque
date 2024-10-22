@@ -28,13 +28,9 @@ def main(n) :
 	## OF CODE ALLOW THIS FUNCTION TO RETURN THE VALUE
 	## "anti-prime" or "not anti-prime"
 	return("anti-prime")
-if len(sys.argv) != 2:
-    print("Número entero positivo como argumento.")
-    sys.exit(1)
-n=int(sys.argv[1])
 ## DO NOT REMOVE THIS LINE BELOW
 if __name__ == "__main__" :
-
+	n=int(sys.argv[1])
 	## MODIFY THE LINE BELOW AND ADD BEFORE WHATEVER LINES ARE NECESSARY
 	## TO RUN THIS PROGRAM AS, FOR INSTANCE:
 	## $ python antiprime.py 6
