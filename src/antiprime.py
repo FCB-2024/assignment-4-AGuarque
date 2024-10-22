@@ -20,7 +20,7 @@ def main(n) :
 				divisors_j=divisors_j+1			
 			k=k+1
 		if divisors_j>=divisors_n:
-			return("non-anti-prime")
+			return("not anti-prime")
 		j=j+1
 	## THE LAST LINES OF YOUR CODE SHOULD EITHER
 	## RETURN THE VALUE "anti-prime" or "not anti-prime"
@@ -31,6 +31,7 @@ def main(n) :
 ## DO NOT REMOVE THIS LINE BELOW
 if __name__ == "__main__" :
 	n=int(sys.argv[1])
+
 	## MODIFY THE LINE BELOW AND ADD BEFORE WHATEVER LINES ARE NECESSARY
 	## TO RUN THIS PROGRAM AS, FOR INSTANCE:
 	## $ python antiprime.py 6
